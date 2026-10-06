@@ -1,16 +1,83 @@
-# React + Vite
+# 🎬 React Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A movie browsing web application built with **React and Vite**, using the **TMDB API** to search and display movies.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔎 Search for movies
+- 🎬 Browse popular movies
+- ❤️ Add movies to favorites
+- 🗑️ Remove movies from favorites
+- 💾 Save favorites using localStorage
+- 🧭 Navigation using React Router
+- 📱 Responsive movie grid
 
-## React Compiler
+## 🛠️ Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Vite
+- React Router
+- CSS
+- TMDB API
+- Context API
+- localStorage
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/
+├── contexts/
+├── css/
+├── pages/
+├── services/
+├── App.jsx
+└── main.jsx
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/razaranaawais-bit/react-movie-app.git
+```
+
+### 2. Go into the project
+
+```bash
+cd react-movie-app
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Add your TMDB API key
+
+Create a `.env` file in the project root:
+
+```env
+VITE_TMDB_API_KEY=your_api_key
+```
+
+### 5. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal.
+
+## 📸 Screenshots
+
+Screenshots will be added soon.
+
+## 👨‍💻 Author
+
+**Awais**
+
+GitHub: [@razaranaawais-bit](https://github.com/razaranaawais-bit)
